@@ -1,0 +1,71 @@
+package day2;
+
+/*import java .util.*;
+public class Assignment{
+    public static void main(String[]args){
+        Scanner input=new Scanner (System.in);
+        int a=input.nextInt();
+        int b=input.nextInt();
+        System.out.println(a=b);
+        System.out.println(a+=b);
+        System.out.println(a-=b);
+        System.out.println(a*=b);
+        System.out.println(a/=b);
+        System.out.println(a%=b);
+        System.out.println(a&=b);
+        System.out.println(a|=b);
+        System.out.println(a^=b);
+        System.out.println(a<<=b);
+        System.out.println(a>>=b);
+
+
+    }
+}*/
+/*import java .util.*;
+public class Assignment {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter one day salry:");
+        int a=input.nextInt();
+        System.out.println("one month salry:");
+        System.out.println(a*31);
+        System.out.println("one year salary:");
+        System.out.println(a*365);
+    }
+}
+*/
+/*import java .util.*;
+public class Assignment {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter temperature:");
+        int a=input.nextInt();
+        int b=(a*9/5)+32;
+        System.out.println(b);
+    }
+}
+*/
+/*
+import java .util.*;
+public class Assignment {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a=input.nextInt();
+         int c=a*60*60;
+        System.out.println(c);
+    }
+}
+*/
+import java .util.*;
+public class Assignment {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter your civil score");
+        int a = input.nextInt();
+        System.out.println("enter your salary:");
+        int b = input.nextInt();
+        boolean c = ((a >750) && (b > 100000));
+        System.out.println(c);
+
+    }
+}
